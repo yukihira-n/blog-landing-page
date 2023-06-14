@@ -1,0 +1,195 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+}
+
+.container img {
+  display: block;
+  width: 100%;
+  height: 550px;
+  opacity: 0.8; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity value as desired */
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#blog-segments {
+  padding: 50px;
+}
+
+#blog-segments h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.segment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.segment img {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+
+.segment h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.segment p {
+  margin-bottom: 10px;
+}
+
+.segment a {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+}
+
+#news-feeds {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+#news-feeds h2 {
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+
+.news-feed {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.news-feed img {
+  width: 100px;
+  margin-right: 40px;
+}
+
+.news-feed h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.news-feed p {
+  margin-bottom: 10px;
+}
+
+#upcoming-events {
+  padding: 50px;
+}
+
+#upcoming-events h2 {
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+
+#upcoming-events h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.event-list li {
+  margin-bottom: 20px;
+}
+
+#jobs {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+#jobs h2 {
+  font-size: 27px;
+  margin-bottom: 25px;
+}
+
+#jobs h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.job-list li {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #333;
+}
